@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*----Estilizar Menu-----*/
+.nav-link.a {
+    color: #000000;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #1d38ae !important;
+    background-color: #85a9f4c8 !important;
+} 
+
+.active {
+    color: #4333F3 !important;
+    border-bottom: 2px solid blue;
+}
